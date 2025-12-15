@@ -140,17 +140,6 @@ def conactinating_seizures_with_non_seizures(
 
     x_balanced_all = x_seizures[:train_nr] + x_non_seizures[:train_nr]
     y_balanced_all = y_seizures[:train_nr] + y_non_seizures[:train_nr]
-
-    # x_final = []
-    # for element in x_balanced_all:
-    #    if element.size > 0:
-    #        x_final.append(element)
-
-    # y_final = []
-    # for element in y_balanced_all:
-    #    if element.size > 0:
-    #        y_final.append(element)
-
     x_concatinated = np.vstack(x_balanced_all)
     y_concatinated = np.hstack(y_balanced_all)
 
