@@ -1,6 +1,6 @@
 import matplotlib
 
-matplotlib.use("TkAgg")  # arba Qt5Agg
+matplotlib.use("TkAgg")  
 import matplotlib.pyplot as plt
 import numpy as np
 from pywt import wavedec
